@@ -4,8 +4,19 @@
     --base-color: #ff1100; 
 }
 
-#id {
-    background-color: var(--base-color);
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    background-color: azure;
+}
+
+input {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#js {
+    color: var(--base-color);
 }
 
 img {
@@ -13,8 +24,4 @@ img {
     padding: var(--base-padding);
     background: var(--base-color);
     filter: blur(var(--base-blur));
-}
-
-#js {
-    color: var(--base-color);
 }
