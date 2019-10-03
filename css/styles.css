@@ -1,0 +1,20 @@
+:root {
+    --base-padding: 10px;
+    --base-blur: 10px;
+    --base-color: #ff1100; 
+}
+
+#id {
+    background-color: var(--base-color);
+}
+
+img {
+    max-width: 800px;
+    padding: var(--base-padding);
+    background: var(--base-color);
+    filter: blur(var(--base-blur));
+}
+
+#js {
+    color: var(--base-color);
+}
