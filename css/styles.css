@@ -2,6 +2,7 @@
     --base-padding: 0px;
     --base-blur: 0px;
     --base-brightness: 1;
+    --base-opacity: 1;
     --base-color: #0095ff;
 }
 
@@ -18,6 +19,10 @@ h1, h3 {
 
 .container {
     margin-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 input {
@@ -33,5 +38,5 @@ img {
     max-width: 500px;
     padding: var(--base-padding);
     background: var(--base-color);
-    filter: blur(var(--base-blur)) brightness(var(--base-brightness));
+    filter: blur(var(--base-blur)) brightness(var(--base-brightness)) opacity(var(--base-opacity));
 }

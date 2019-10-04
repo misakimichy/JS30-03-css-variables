@@ -12,7 +12,8 @@ Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 ## About this Application:
 - `padding` slider range is 0px to 200px.
 - `blur` slider range is 0px to 50px.
-- `brightness` slier range is 0 to 1 (darkest to brightest).
+- `brightness` slider range is 0 to 1 (darkest to brightest).
+- `opacity` slider range is 0 to 1.
 - User can choose a `color` for `padding`. HEX color code will be shown.
 
 
