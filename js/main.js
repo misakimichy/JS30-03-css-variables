@@ -7,8 +7,12 @@ const handleUpdate = event => {
     switch(event.currentTarget.name) {
         case 'padding' :
             document.getElementById('show-padding').innerHTML = event.currentTarget.value;
+            break;
         case 'blur' :
             document.getElementById('show-blur').innerHTML = event.currentTarget.value;
+            break;
+        case 'color' :
+            document.getElementById('show-color').innerHTML = event.currentTarget.value;
     }
 };
 
