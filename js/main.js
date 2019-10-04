@@ -11,6 +11,9 @@ const handleUpdate = event => {
         case 'blur' :
             document.getElementById('show-blur').innerHTML = event.currentTarget.value;
             break;
+        case 'brightness' :
+            document.getElementById('show-brightness').innerHTML = event.currentTarget.value;
+            break;
         case 'color' :
             document.getElementById('show-color').innerHTML = event.currentTarget.value;
     }

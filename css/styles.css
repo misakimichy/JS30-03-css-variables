@@ -1,6 +1,7 @@
 :root {
     --base-padding: 0px;
     --base-blur: 0px;
+    --base-brightness: 1;
     --base-color: #0095ff;
 }
 
@@ -9,6 +10,10 @@ body {
     font-size: 22px;
     background-color: azure;
     text-align: center;
+}
+
+h1, h3 {
+    font-weight: normal;
 }
 
 .container {
@@ -28,5 +33,5 @@ img {
     max-width: 500px;
     padding: var(--base-padding);
     background: var(--base-color);
-    filter: blur(var(--base-blur));
+    filter: blur(var(--base-blur)) brightness(var(--base-brightness));
 }
