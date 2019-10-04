@@ -1,13 +1,18 @@
 :root {
-    --base-padding: 10px;
-    --base-blur: 10px;
-    --base-color: #ff1100; 
+    --base-padding: 0px;
+    --base-blur: 0px;
+    --base-color: #0095ff;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
     background-color: azure;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 20px;
 }
 
 input {
@@ -20,7 +25,7 @@ input {
 }
 
 img {
-    max-width: 800px;
+    max-width: 500px;
     padding: var(--base-padding);
     background: var(--base-color);
     filter: blur(var(--base-blur));

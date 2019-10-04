@@ -9,17 +9,24 @@
 </head>
 <body>
     <h1>CSS variables with <span id="js">JS</span></h1>
+    <h3>Change range slider bars and base color. See what happens!</h3>
 
-    <label for="padding">Padding:</label>
-    <input id="padding" type="range" min="1" max="100" value="50" step="1">
+    <div class="container">
+        <label for="padding">Padding:</label>
+        <input id="padding" name="padding" type="range" min="0" max="200" value="0" data-sizing="px">
+        
+        <label for="blur">Blur:</label>
+        <input id="blur" name="blur" type="range" min="0" max="50" value="0" data-sizing="px">
     
-    <label for="blur">Blur:</label>
-    <input id="blur" type="range" min="1" max="100" value="50" step="1">
-
-    <label for="color">Base Color:</label>
-    <input id="color" type="color">
-
+        <label for="color">Base Color:</label>
+        <input id="color" name="color" type="color" value="#0095ff">
+    </div>
     <img src="https://images.unsplash.com/photo-1564631027824-92f5b553a7e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+    
+    <div class="value">
+        <p>Padding: <span id="show-padding"></span> px</p>
+        <p>Blur: <span id="show-blur"></span> px</p>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
